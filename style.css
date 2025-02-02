@@ -38,8 +38,10 @@ header {
     margin-bottom: 20px;
 }
 footer {
-    background-color: #f1f1f1;
-    color: #pink;
+     #.container {
+    background-color: pink; 
+}
+;
     padding: 10px;
     text-align: center;
     border-top: 1px solid #ccc;
