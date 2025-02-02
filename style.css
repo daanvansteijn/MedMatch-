@@ -39,7 +39,7 @@ header {
 }
 footer {
      #.container {
-    background-color: pink; 
+    background-color: pink; important!
 }
 ;
     padding: 10px;
