@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Specialty Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Find Your Ideal Medical Specialty</h1>
+        <p>Answer the questions below to discover which specialty fits you best!</p>
+        <button onclick="startQuiz()">Start Quiz</button>
+        
+        <div id="quiz" class="question">
+            <p id="question-text"></p>
+            <button onclick="answer(1)">Option A</button>
+            <button onclick="answer(2)">Option B</button>
+            <button onclick="answer(3)">Option C</button>
+            <button onclick="answer(4)">Option D</button>
+        </div>
+        
+        <div id="result" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
